@@ -7,6 +7,8 @@ public class JsonPropertyNoArgsExamplePojo {
     private String example;
     private String demo;
 
+    public JsonPropertyNoArgsExamplePojo() {}
+
     public JsonPropertyNoArgsExamplePojo(@JsonProperty String example,
                                          @JsonProperty String demo) {
         this.example = example;

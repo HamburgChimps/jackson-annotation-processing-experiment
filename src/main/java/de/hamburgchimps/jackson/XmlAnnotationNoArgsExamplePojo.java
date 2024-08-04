@@ -7,6 +7,8 @@ public class XmlAnnotationNoArgsExamplePojo {
     private String example;
     private String demo;
 
+    public XmlAnnotationNoArgsExamplePojo() {}
+
     public XmlAnnotationNoArgsExamplePojo(@JacksonXmlProperty String example,
                                           @JacksonXmlProperty String demo) {
         this.example = example;

@@ -6,6 +6,8 @@ public class XmlAnnotationWithArgExamplePojo {
     private String example;
     private String demo;
 
+    public XmlAnnotationWithArgExamplePojo() {}
+
     public XmlAnnotationWithArgExamplePojo(@JacksonXmlProperty(isAttribute = true) String example,
                                            @JacksonXmlProperty(isAttribute = true) String demo) {
         this.example = example;

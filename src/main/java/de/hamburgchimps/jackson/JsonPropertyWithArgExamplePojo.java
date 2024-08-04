@@ -6,6 +6,8 @@ public class JsonPropertyWithArgExamplePojo {
     private String example;
     private String demo;
 
+    public JsonPropertyWithArgExamplePojo() {}
+
     public JsonPropertyWithArgExamplePojo(@JsonProperty(required = true) String example,
                                          @JsonProperty(required = true) String demo) {
         this.example = example;
